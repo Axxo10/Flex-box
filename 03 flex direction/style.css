@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction:column;
+    flex-direction: row-reverse;
+    flex-direction: row;
+    flex-direction: column-reverse;
+    max-width: 960px;
+    height: 960px;
+    background-color: darkgreen;
+}
+.item{
+    text-align: center;
+    padding-top: 36px;
+    height: 100px;
+    width: 100px;
+    background-color: darkgray;
+    border: 2px solid;
+}
