@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: cadetblue;
+    font-family: sans-serif;
+    color: aliceblue;
+} 
+.container {
+    background-color: darkgreen;
+    width: 500px;
+    height: 500px;
+}
+.item {
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
